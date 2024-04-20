@@ -78,6 +78,7 @@ const getContact = asyncHandler(async (req,res) => {
     res.status(200).json(contact);
 });
 
+//updated COntact
 
 //@desc update contact
 //@route PUT /api/contacts/:id
